@@ -1,3 +1,6 @@
+import 'package:flutter/foundation.dart' show kIsWeb;
+// 웹에서 빌드 가능하도록 설정
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,9 +21,14 @@ class MyApp extends StatelessWidget {
             children: [
               Image.asset('test.jpg', width: 150),
               // margin, padding
+
               Container(
                 child: Column(
-                  children: [ Text('캐논'), Text('금호 - 끌올 10분 전'), Text('680,000원'), Icon(Icons.heart_broken)],
+                  children: [
+                    Text('캐논', style: TextStyle( fontSize: 10) ),
+                    Text('금호동 - 끌올 10분 전'),
+                    Text('680,000원'),
+                    Icon(Icons.heart_broken)],
                   // 1. font size 2. font color gray 3. font bold set 4. heart만 오른쪽
                 ),
               )
