@@ -45,5 +45,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+    <array>
+      <string>assets/test.jpg</string> <!-- 여기에는 애셋 경로를 추가 -->
+    </array>
 </dict>
 </plist>
