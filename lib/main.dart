@@ -14,8 +14,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar( title: Text('금호동3가'), actions: [Icon(Icons.search), Icon(Icons.list), Icon(Icons.add_alert)]),
+        appBar: AppBar(
+          titleSpacing: 30.0, // title spacing 간격 조절
+            title: Text('금호동3가', style: TextStyle( fontWeight: FontWeight.bold, fontSize: 20 ) ),
+            actions: [
+              Padding(padding: EdgeInsets.symmetric(horizontal: 8.0)), // appbar action iconbutton padding 값
+              IconButton(icon: const Icon(Icons.search_rounded), onPressed: () {} ),
+              IconButton(icon: Icon(Icons.list), onPressed: () {} ),
+              IconButton(icon: Icon(Icons.access_alarm_outlined), onPressed: () {} ),
         // actions icon 간격 조, appbar border
+      ]),
         body: Container(
           child: Row(
             children: [
@@ -25,9 +33,9 @@ class MyApp extends StatelessWidget {
               Container(
                 child: Column(
                   children: [
-                    Text('캐논', style: TextStyle( fontSize: 10) ),
-                    Text('금호동 - 끌올 10분 전'),
-                    Text('680,000원'),
+                    Text('캐논', style: TextStyle( fontSize: 30) ),
+                    Text('금호동 - 끌올 10분 전', style: TextStyle( fontSize: 10, color: Colors.grey) ),
+                    Text('680,000원', style: TextStyle( fontWeight: FontWeight.bold ) ),
                     Icon(Icons.heart_broken)],
                   // 1. font size 2. font color gray 3. font bold set 4. heart만 오른쪽
                 ),
