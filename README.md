@@ -1,16 +1,12 @@
-# carrot
+# 🥕 당근 마켓 디자인 코드
 
-carrot copy project file
+Dart 언어로 작성된 Flutter 프로젝트 파일입니다.
 
-## Getting Started
+당근 마켓의 레이아웃과 앱바의 카피본입니다.
 
-This project is a starting point for a Flutter application.
+- IconButton의 padding을 없애고 추가적인 텍스트 크기와 위치만 추가적으로 조정이 필요합니다.
+- 
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Layout and Appbar ios build screen
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/user-attachments/assets/402d3f52-228d-460c-b622-0355bf2f205b"  width="30%" height="30%"/>
