@@ -15,7 +15,11 @@ Dart 언어로 작성된 Flutter 프로젝트 파일입니다.
 
 <img src="https://github.com/user-attachments/assets/103ad4d8-ec92-42ea-bd3d-ce786134fc19" width="30%" height="30%"/>
 
+
+
  - study.dart 파일에는 기본적인 레이아웃 틀이 저장되어 있습니다. 아래는 study.dart 파일의 코드입니다.
+
+
 
 ```
 import 'package:flutter/material.dart';
