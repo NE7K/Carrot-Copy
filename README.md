@@ -10,3 +10,7 @@ Dart 언어로 작성된 Flutter 프로젝트 파일입니다.
 ## 📱 Layout and Appbar ios build screen
 
 <img src="https://github.com/user-attachments/assets/402d3f52-228d-460c-b622-0355bf2f205b"  width="30%" height="30%"/>
+
+## 📖 Layout Base
+
+<img src="https://github.com/user-attachments/assets/103ad4d8-ec92-42ea-bd3d-ce786134fc19" width="30%" height="30%"/>
