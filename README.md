@@ -4,7 +4,7 @@ Dart 언어로 작성된 Flutter 프로젝트 파일입니다.
 
 당근 마켓의 레이아웃과 앱바의 카피본입니다.
 
-- IconButton의 padding을 없애고 추가적인 텍스트 크기와 위치만 추가적으로 조정이 필요합니다.
+> IconButton의 padding을 없애고 추가적인 텍스트 크기와 위치만 추가적으로 조정이 필요합니다.
   
 
 ## 📱 Layout and Appbar ios build screen
@@ -17,7 +17,9 @@ Dart 언어로 작성된 Flutter 프로젝트 파일입니다.
 
 
 
- - study.dart 파일에는 기본적인 레이아웃 틀이 저장되어 있습니다. 아래는 study.dart 파일의 코드입니다.
+
+> study.dart 파일에는 기본적인 레이아웃 틀이 저장되어 있습니다. 아래는 study.dart 파일의 코드입니다.
+
 
 
 
